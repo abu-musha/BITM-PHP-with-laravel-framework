@@ -1,0 +1,20 @@
+h1{
+  background: #3498db;
+  color: white;
+}
+
+h2{
+  background: #e74c3c;
+}
+
+.div-one{
+  height: 400px;
+  width: 400px;
+  background: #34495e;
+  color: white;
+  font-size: 25px;
+}
+
+#text{
+  background:#e67e22;
+}

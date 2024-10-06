@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+
+<body>
+  <table border="1" align="center" width="980">
+    <tr>
+      <td height="200" width="200"></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td height="50" colspan="2"></td>
+    </tr>
+    <tr>
+      <td height="500"></td>
+      <td valign="top">
+        <table>
+          <tr>
+            <th>First Name</th>
+            <td><input type="text" name="first_name" id="firstName" value="Abu Musha" minlength="5" readonly></td>
+          </tr>
+          <tr>
+            <th>Last Name</th>
+            <td><input type="text" maxlength="8" name="last_name" id="lastName" placeholder="Your Last Name" size="50">
+            </td>
+          </tr>
+          <tr>
+            <th>Email</th>
+            <td><input type="email" name="email_address" id="emailAddress"></td>
+          </tr>
+          <tr>
+            <th>Password</th>
+            <td><input type="password" name="password" id="password"></td>
+          </tr>
+          <tr>
+            <th>Phone Number</th>
+            <td><input type="number" max="10" min="0" name="phone_number" id="phone_number"></td>
+          </tr>
+          <tr>
+            <th>Date Of Birth</th>
+            <td><input type="date" name="date_of_birth" id="dateOfBirth"></td>
+          </tr>
+          <tr>
+            <th>Address</th>
+            <td><textarea name="address" id="address" cols="30" rows="10"></textarea></td>
+          </tr>
+          <tr>
+            <th>District</th>
+            <td><select name="" id="">
+                <option value="" selected disabled>--- Select Your District ---</option>
+                <optgroup label="Dhaka Division">
+                  <option name="" id="" value="">Dhaka</option>
+                  <option name="" id="" value="">Faridpur</option>
+                  <option name="" id="" value="">Gazipur</option>
+                  <option name="" id="" value="">Gopalganj</option>
+                  <option name="" id="" value="">Jamalpur</option>
+                </optgroup>
+                <optgroup label="Rangpur Division">
+                  <option name="" id="" value="">Rangpur</option>
+                  <option name="" id="" value="">Dinajpur</option>
+                  <option name="" id="" value="">Kurigram</option>
+                  <option name="" id="" value="">Gaibandha</option>
+                  <option name="" id="" value="">Lalmonirhat</option>
+                </optgroup>
+              </select></td>
+          </tr>
+          <tr>
+            <th>Country</td>
+            <td><input type="text" name="country" id="country" list="country"></td>
+          </tr>
+          <tr>
+            <th>Gender</th>
+            <td>
+              <input type="radio" name="gender"> Male
+              <input type="radio" checked name="gender">
+            </td>
+          </tr>
+          <tr>
+            <th>Image</th>
+            <td><input type="file" name="image" id="image" multiple accept="image/*"></td>
+          </tr>
+          <tr>
+            <th>Subject</th>
+            <td>
+              <input type="checkbox"> Bangla
+              <input type="checkbox"> English
+              <input type="checkbox"> Math
+            </td>
+          </tr>
+          <tr>
+            <th>Color</th>
+            <td><input type="color"></td>
+          </tr>
+          <tr>
+            <th></th>
+            <td><input type="submit" value="Registration"></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="50" colspan="2"></td>
+    </tr>
+  </table>
+</body>
+
+</html>
